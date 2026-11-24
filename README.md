@@ -4,10 +4,11 @@ A Windows desktop project for investigating possible unauthorized cryptocurrency
 
 ## Run on your laptop
 
-1. Extract the **whole ZIP** into a folder where you can save files, such as Downloads.
-2. Open that folder and double-click **Start-Detector.pyw**. If Windows opens an editor instead, open PowerShell in the same folder and run **py detector.py --gui**.
-3. Click **Run demo**. After about five seconds the Findings tab shows **Video export → Sustained load** and **Simulated miner → Mining indicators**. Select each row to compare the evidence.
-4. Click **Start live** for your own laptop. Choose a row in Processes and click **Inspect selected process**. The result appears in Findings after Windows finishes the queries. Use **Stop** to stop collecting samples.
+1. You can install the application by installing the **exe** file from the output folder.
+2. Extract the **whole ZIP** into a folder where you can save files, such as Downloads.
+3. Open that folder and double-click **Start-Detector.pyw**. If Windows opens an editor instead, open PowerShell in the same folder and run **py detector.py --gui**.
+4. Click **Run demo**. After about five seconds the Findings tab shows **Video export → Sustained load** and **Simulated miner → Mining indicators**. Select each row to compare the evidence.
+5. Click **Start live** for your own laptop. Choose a row in Processes and click **Inspect selected process**. The result appears in Findings after Windows finishes the queries. Use **Stop** to stop collecting samples.
 
 Python 3.11 or newer with Tkinter runs the desktop app. Live mode needs psutil 6.0 or newer. If necessary run **py -m pip install "psutil>=6"** in PowerShell. The offline demo needs only Python with Tkinter. The project also retains the terminal commands **py detector.py** for live monitoring and **py detector.py --demo** for simulation.
 
