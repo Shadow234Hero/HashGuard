@@ -1,0 +1,5 @@
+timestamp,process,pid,cpu_percent,reason
+2026-11-25T01:08:01+05:30,Video export,8102,95,Sustained load
+2026-11-25T01:08:03+05:30,Simulated miner,8103,95,Mining indicators
+2026-11-25T01:15:51+05:30,Video export,8102,95,Sustained load
+2026-11-25T01:15:53+05:30,Simulated miner,8103,95,Mining indicators
