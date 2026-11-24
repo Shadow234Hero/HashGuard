@@ -1,4 +1,4 @@
-# Cryptojacking Detector
+# Cryptominer Detector
 
 A Windows desktop project for investigating possible unauthorized cryptocurrency mining. The dashboard links CPU or GPU activity to a particular running program, examines its executable and network peers, and explains the evidence behind each finding.
 
